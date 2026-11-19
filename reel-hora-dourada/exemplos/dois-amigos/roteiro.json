@@ -1,0 +1,67 @@
+{
+ "modo": "voz",
+ "estilo_texto": "flat",
+ "musica": "misterio",
+ "marca": {
+  "cor": "#F07422"
+ },
+ "cenas_py": "cenas.py",
+ "cenas": [
+  {
+   "cena": "rafa",
+   "narracao": "O Rafa queria tudo perfeito antes de começar.",
+   "camera": {
+    "mov": "aproximar",
+    "foco": [
+     720,
+     1300
+    ]
+   }
+  },
+  {
+   "cena": "dupla",
+   "narracao": "Dois amigos, mesmo dia, mesma ideia.",
+   "camera": {
+    "mov": "parada",
+    "foco": [
+     720,
+     1280
+    ],
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "cena": "depois",
+   "narracao": "Seis meses depois, só um tinha clientes.",
+   "camera": {
+    "mov": "aproximar",
+    "foco": [
+     720,
+     1300
+    ]
+   },
+   "sons": [
+    {
+     "tipo": "tom",
+     "em": 0.05
+    }
+   ]
+  },
+  {
+   "cena": "pergunta",
+   "narracao": "Por quê?",
+   "duracao": 2.2,
+   "camera": {
+    "mov": "parada",
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   },
+   "legenda": false
+  }
+ ]
+}
