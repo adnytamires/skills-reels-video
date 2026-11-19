@@ -1,0 +1,138 @@
+{
+  "marca": {
+    "cor": "#7C3AED",
+    "arroba": "@seuperfil",
+    "bio": "Dicas de IA para o dia a dia de trabalho",
+    "mascote": ""
+  },
+  "palavras_por_segundo": 2.3,
+  "cenas": [
+    {
+      "selo": "!",
+      "titulo": "Anotações *bagunçadas?*",
+      "narracao": "Saiu da reunião com um monte de anotação solta? Dá para virar uma lista de tarefas em um minuto.",
+      "janela": {
+        "tipo": "texto",
+        "titulo": "bloco de notas",
+        "resumo_animado": false,
+        "mensagens": [
+          {
+            "texto": "ver orçamento c/ fornecedor ?? até sexta"
+          },
+          {
+            "texto": "Ju falou do evento... confirmar local"
+          },
+          {
+            "texto": "mandar relatório pro Marcos (urgente??)"
+          },
+          {
+            "texto": "lembrar: renovar contrato do sistema"
+          }
+        ]
+      }
+    },
+    {
+      "selo": "1",
+      "titulo": "Tire o que é *sigiloso*",
+      "narracao": "Primeiro, um cuidado. Antes de colar na IA, tire nomes, telefones e valores de clientes.",
+      "exemplo": true,
+      "janela": {
+        "tipo": "texto",
+        "titulo": "bloco de notas",
+        "resumo_animado": false,
+        "tarjar_em": 0.35,
+        "mensagens": [
+          {
+            "texto": "ver orçamento c/ {{Fornecedor Alfa}} ?? até sexta"
+          },
+          {
+            "texto": "{{Ju}} falou do evento... confirmar local"
+          },
+          {
+            "texto": "mandar relatório pro {{Marcos}} (urgente??)"
+          },
+          {
+            "texto": "lembrar: renovar contrato do sistema"
+          }
+        ]
+      }
+    },
+    {
+      "selo": "2",
+      "titulo": "Peça a *lista*",
+      "narracao": "Depois, cole as anotações e peça uma lista com tarefa, responsável e prazo.",
+      "exemplo": true,
+      "janela": {
+        "tipo": "chat",
+        "prompt": "Transforme as anotações abaixo em uma [[lista de tarefas]] com [[responsável]] e [[prazo]]. Se faltar informação, pergunte.",
+        "resposta": [
+          "1. Pedir orçamento ao fornecedor · você · sexta",
+          "2. Confirmar local do evento · Pessoa A · [[prazo?]]",
+          "3. Enviar relatório · você · hoje"
+        ]
+      }
+    },
+    {
+      "selo": "3",
+      "titulo": "Confira os *prazos*",
+      "narracao": "A IA marcou o que faltou. Confira cada prazo antes de mandar para a equipe.",
+      "exemplo": true,
+      "janela": {
+        "tipo": "planilha",
+        "titulo": "tarefas da semana",
+        "colunas": [
+          "Tarefa",
+          "Quem",
+          "Prazo"
+        ],
+        "linhas": [
+          [
+            "Enviar relatório",
+            "Você",
+            "Hoje"
+          ],
+          [
+            "Orçamento",
+            "Você",
+            "Sexta"
+          ],
+          [
+            "Local do evento",
+            "Pessoa A",
+            "A definir"
+          ]
+        ],
+        "coluna_destaque": 2
+      },
+      "pilula": {
+        "texto": "prazo vazio? pergunte!",
+        "em": 0.75,
+        "y": 0.86
+      }
+    },
+    {
+      "selo": "✓",
+      "titulo": "Prompt na *legenda*",
+      "narracao": "O prompt completo está na legenda. Salva para usar na próxima reunião.",
+      "janela": {
+        "tipo": "cartao",
+        "selo": "salve para depois",
+        "titulo": "Anotação solta vira *lista de tarefas*",
+        "texto": "Tarefa, responsável e prazo. Sem dados sigilosos."
+      },
+      "nota": {
+        "texto": "Prompt na legenda ↓",
+        "sub": "Salve",
+        "em": 0.5
+      }
+    },
+    {
+      "selo": "✓",
+      "titulo": "Me *segue*",
+      "narracao": "Me segue para mais dicas de IA no trabalho.",
+      "janela": {
+        "tipo": "final"
+      }
+    }
+  ]
+}
