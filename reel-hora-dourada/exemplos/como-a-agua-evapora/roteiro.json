@@ -1,0 +1,13 @@
+{
+  "modo": "voz", "estilo_texto": "flat", "musica": "alegre",
+  "marca": {"cor": "#2F80ED"}, "cor_texto": "#1F2A3A", "cenas_py": "cenas.py",
+  "cenas": [
+    {"cena": "pergunta", "narracao": "Para onde vai a água da poça?", "camera": {"mov": "aproximar", "foco": [720, 1200]}},
+    {"cena": "particulas", "narracao": "A água é feita de partículas que não param de se mexer.", "camera": {"mov": "parada", "zoom": [1.0, 1.0]}},
+    {"cena": "calor", "narracao": "Com calor, algumas ganham energia e escapam: viram vapor.", "duracao": 4.6, "camera": {"mov": "parada", "zoom": [1.0, 1.0]}},
+    {"cena": "semferver", "narracao": "Isso é evaporar. E acontece sem ferver.", "camera": {"mov": "aproximar", "foco": [720, 1100]}},
+    {"cena": "dicas", "narracao": "Calor, vento e mais superfície fazem a água evaporar mais rápido.", "duracao": 4.8, "camera": {"mov": "parada", "zoom": [1.0, 1.0]}},
+    {"cena": "nuvem", "narracao": "Lá em cima, o vapor esfria e vira nuvem.", "camera": {"mov": "subir", "foco": [720, 1300]}},
+    {"cena": "varal", "narracao": "Por isso a roupa seca no varal!", "camera": {"mov": "afastar", "foco": [720, 1150]}, "sons": [{"tipo": "sino", "em": 0.3}]}
+  ]
+}
