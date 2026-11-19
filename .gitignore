@@ -1,0 +1,9 @@
+# vídeos e arquivos temporários gerados ao testar as skills
+*.mp4
+*.wav
+*.mp3
+__pycache__/
+*.pyc
+.DS_Store
+saida/
+out/
