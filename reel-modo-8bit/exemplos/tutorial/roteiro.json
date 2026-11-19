@@ -1,0 +1,81 @@
+{
+ "marca": {
+  "cor": "#0E8A6B",
+  "arroba": "@teste.marca"
+ },
+ "palavras_por_segundo": 2.4,
+ "cenas_py": "cenas.py",
+ "cenas": [
+  {
+   "selo": "!",
+   "titulo": "E-mail *lotado?*",
+   "narracao": "Sabe aquela conversa de e-mail com vinte respostas? Dá para entender em um minuto.",
+   "arte": "gancho",
+   "sons": [
+    {
+     "tipo": "alerta",
+     "em": 0.3
+    }
+   ]
+  },
+  {
+   "selo": "1",
+   "titulo": "Cole na *IA*",
+   "narracao": "Copie a conversa, sem dados de clientes, e peça um resumo em três partes.",
+   "arte": "cola",
+   "etiquetas": [
+    {
+     "texto": "SEM DADOS SIGILOSOS",
+     "x": 135,
+     "y": 140,
+     "cor": "vermelho"
+    }
+   ],
+   "sons": [
+    {
+     "tipo": "digitar",
+     "em": 0.1,
+     "ate": 0.5
+    },
+    {
+     "tipo": "moeda",
+     "em": 0.55
+    }
+   ]
+  },
+  {
+   "selo": "2",
+   "titulo": "Confira *3 coisas*",
+   "narracao": "Depois confira no original: as datas, os pedidos e quem ficou responsável.",
+   "arte": "confere",
+   "sons": [
+    {
+     "tipo": "toque",
+     "em": 0.45
+    },
+    {
+     "tipo": "toque",
+     "em": 0.65
+    },
+    {
+     "tipo": "sucesso",
+     "em": 0.85
+    }
+   ]
+  },
+  {
+   "selo": "ok",
+   "titulo": "Me *segue*",
+   "narracao": "Me segue para mais dicas de IA no trabalho.",
+   "arte": "fim",
+   "etiquetas": [
+    {
+     "texto": "PROMPT NA LEGENDA",
+     "x": 135,
+     "y": 150,
+     "cor": "ouro"
+    }
+   ]
+  }
+ ]
+}
