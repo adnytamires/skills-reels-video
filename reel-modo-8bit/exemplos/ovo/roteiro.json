@@ -1,0 +1,223 @@
+{
+ "marca": {
+  "cor": "#7C3AED",
+  "arroba": "@seuperfil"
+ },
+ "palavras_por_segundo": 2.4,
+ "cenas_py": "cenas.py",
+ "cenas": [
+  {
+   "selo": "?",
+   "titulo": "Como um *ovo nasce?*",
+   "narracao": "Como um ovo nasce? São duas aventuras: uma dentro da galinha e outra dentro do ovo.",
+   "arte": "gancho",
+   "etiquetas": [
+    {
+     "texto": "1  DENTRO DA GALINHA",
+     "x": 135,
+     "y": 150,
+     "cor": "marca",
+     "em": 0.5
+    },
+    {
+     "texto": "2  DENTRO DO OVO",
+     "x": 135,
+     "y": 172,
+     "cor": "ouro",
+     "em": 0.7
+    }
+   ],
+   "sons": [
+    {
+     "tipo": "toque",
+     "em": 0.5
+    },
+    {
+     "tipo": "toque",
+     "em": 0.7
+    }
+   ]
+  },
+  {
+   "selo": "1",
+   "titulo": "A *gema* se solta",
+   "narracao": "Começa no ovário: a gema se solta e entra no oviduto.",
+   "arte": "gema",
+   "etiquetas": [
+    {
+     "texto": "PARTE: INFUNDÍBULO",
+     "x": 175,
+     "y": 140
+    },
+    {
+     "texto": "15–30 MIN",
+     "x": 175,
+     "y": 160,
+     "cor": "ouro"
+    }
+   ]
+  },
+  {
+   "selo": "2",
+   "titulo": "Vem a *clara*",
+   "narracao": "No caminho, ela ganha a clara, em umas três horas.",
+   "arte": "clara",
+   "etiquetas": [
+    {
+     "texto": "PARTE: MAGNO",
+     "x": 135,
+     "y": 140
+    },
+    {
+     "texto": "~3 HORAS",
+     "x": 135,
+     "y": 160,
+     "cor": "ouro"
+    },
+    {
+     "texto": "CAMADAS DE CLARA",
+     "x": 135,
+     "y": 296,
+     "em": 0.55
+    }
+   ]
+  },
+  {
+   "selo": "3",
+   "titulo": "*Membranas* e forma",
+   "narracao": "Depois vêm as membranas e o formato de ovo, em cerca de uma hora.",
+   "arte": "membranas",
+   "etiquetas": [
+    {
+     "texto": "PARTE: ISTMO",
+     "x": 135,
+     "y": 140
+    },
+    {
+     "texto": "~1 HORA",
+     "x": 135,
+     "y": 160,
+     "cor": "ouro"
+    },
+    {
+     "texto": "FORMATO DE OVO",
+     "x": 135,
+     "y": 296,
+     "em": 0.6
+    }
+   ]
+  },
+  {
+   "selo": "4",
+   "titulo": "A *casca*",
+   "narracao": "A casca é a parte mais lenta: umas vinte horas juntando cálcio.",
+   "arte": "casca",
+   "etiquetas": [
+    {
+     "texto": "PARTE: ÚTERO",
+     "x": 135,
+     "y": 140
+    },
+    {
+     "texto": "+ CÁLCIO",
+     "x": 135,
+     "y": 296,
+     "em": 0.5
+    }
+   ]
+  },
+  {
+   "selo": "5",
+   "titulo": "O *ovo sai*",
+   "narracao": "Pouco mais de um dia e o ovo sai. Sem galo, ele não vira pintinho.",
+   "arte": "sai",
+   "etiquetas": [
+    {
+     "texto": "~24 A 26 H",
+     "x": 190,
+     "y": 150,
+     "cor": "ouro"
+    },
+    {
+     "texto": "SEM GALO =",
+     "x": 190,
+     "y": 214,
+     "cor": "vermelho",
+     "em": 0.55
+    },
+    {
+     "texto": "SEM PINTINHO",
+     "x": 190,
+     "y": 234,
+     "cor": "vermelho",
+     "em": 0.55
+    }
+   ],
+   "sons": [
+    {
+     "tipo": "moeda",
+     "em": 0.25
+    }
+   ]
+  },
+  {
+   "selo": "6",
+   "titulo": "*21 dias* de calor",
+   "narracao": "Se foi fertilizado, são vinte e um dias aquecido, entre trinta e sete e trinta e oito graus.",
+   "arte": "calor"
+  },
+  {
+   "selo": "7",
+   "titulo": "A *1ª respiração*",
+   "narracao": "No fim, o pintinho fura a bolsa de ar com o bico e respira pela primeira vez.",
+   "arte": "respira",
+   "etiquetas": [
+    {
+     "texto": "1ª RESPIRAÇÃO",
+     "x": 135,
+     "y": 296,
+     "em": 0.25
+    }
+   ],
+   "sons": [
+    {
+     "tipo": "sucesso",
+     "em": 0.25
+    }
+   ]
+  },
+  {
+   "selo": "8",
+   "titulo": "*Nasceu!*",
+   "narracao": "Então trinca a casca e vai quebrando aos poucos. Pode levar horas. Nasceu!",
+   "arte": "nasceu",
+   "sons": [
+    {
+     "tipo": "quebra",
+     "em": 0.1
+    },
+    {
+     "tipo": "quebra",
+     "em": 0.35
+    },
+    {
+     "tipo": "sucesso",
+     "em": 0.62
+    }
+   ]
+  },
+  {
+   "selo": "ok",
+   "titulo": "*Salva* essa",
+   "narracao": "Salva para mostrar para alguém curioso.",
+   "arte": "fim",
+   "etiquetas": [
+    {
+     "texto": "SALVA E MANDA",
+     "x": 135,
+     "y": 150
+    }
+   ]
+  }
+ ]
+}
